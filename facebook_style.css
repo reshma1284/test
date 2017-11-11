@@ -1,0 +1,167 @@
+html,body, div, span,h1, h2, h3, h4, h5, h6,p,a,
+center,dl, dt, dd, ol, ul, li,table
+{
+	margin: 0 auto;
+	padding:0; 
+	line-height:1;
+	font-family: arial;
+}
+body{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+
+
+/****************** HEADER*****************/
+#header{
+	background-color: #3d5b99;
+	padding: 20px;
+}
+#header img{
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 100px; 
+}
+#header form{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 10px;
+	text-align: left;
+}
+#header input{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+}
+.text_box{
+	display: inline-block;
+	vertical-align: top;	
+}
+
+#login{
+	color: white;
+	background-color: blue;
+	border-color: blue;
+	padding: 5px 20px;
+	position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+/****************** MAIN CONTENT*****************/
+
+#main_content{
+	background-color: #e9ebee;
+	padding:30px 0px;
+}
+#left_content{
+	color: #2e4e92;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+#left_content h3{
+	width: 400px;
+	padding-bottom: 30px;
+    text-align: left;
+}
+
+#left_content img{
+	height: 250px;
+    width: 400px;
+}
+
+#right_content{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	height: 600px;
+	color: #2e4e92;	
+}
+#right_content h3, p{
+	padding-bottom: 20px;
+}
+#right_content form input, select{
+	margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    width:100px;
+    text-align: right;
+}
+#right_content form p{
+	margin-left: 100px;
+    width: 250px;
+}
+#sign_up{
+	background-color: #5f9b4c;
+	border-color: #5f9b4c;
+    color: white;
+    margin-left: 100px;
+ /*   margin-top: 20px;  */
+    padding: 5px 20px;
+    font-weight: bold;
+}
+#sign_up_line1{
+	background-color: #587dc9;
+    border: medium none;
+    color: #587dc9;
+    height: 2px;
+}
+#sign_up_line2{
+	background-color: #cccccc;
+    border: medium none;
+    color: #dddada;
+    height: 3px;
+}
+#create_page{
+	font-weight: bold;
+	color: grey;
+	text-align: center;
+	padding-top: 20px;
+}
+/****************** FOOTER*****************/
+
+#footer{
+	background-color: white;
+	width: 70%;
+}
+#footer p{
+	text-align:left;
+	padding: 10px;
+	float: left;
+}
+#footer p span{
+	color: grey;
+}
+#copy_right{
+	padding-bottom: 30px;
+}
+
+#copy_right ul{
+	width: 650px;
+	margin-left: 250px;
+}
+#copy_right ul li{
+	list-style: none;
+	 padding: 10px;
+	 float: right;
+}
+hr {
+	clear: both;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 90%;
+    color: silver;
+}
+#footer_line{
+	background-color: #cccccc;
+    border: medium none;
+    color: #dddada;
+    height: 2px;
+}
